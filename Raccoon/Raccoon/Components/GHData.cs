@@ -1,4 +1,23 @@
-﻿using Grasshopper.Kernel;
+﻿///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// DEVELOPER:
+// Petras Vestartas, petasvestartas@gmail.com
+// Funding: EPFL
+//
+// HISTORY:
+// 1) The first CNC Maka code was written in IronPython by Benjamin Hahn. Thesis: Upscaling of Friction Welding of Wood for Structural Applications 2014
+// 2) The second version was turned in a C# plugin by Christropher Robeller. Thesis: Integral Mechanical Attachment for Timber Folded Plate Structures 2015
+// 3) The third version was written during Robotic and CNC software development by Petras Vestartas. Thesis: Design-to-Fabrication Workflow for Raw-Sawn-Timber using Joinery Solver, 2021
+//
+// RESTRICTIONS:
+// The code cannot be used for commercial reasons
+// If you would like to use or change the code for research or educational reasons,
+// please contact the developer first
+//
+// 3RD PARTY LIBRARIES:
+// Rhino3D
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 using Rhino.Geometry;
@@ -12,7 +31,6 @@ namespace Raccoon.Components
 {
     public static class DataAccessHelper
     {
-
         public static List<Polyline> ToPolylines(this List<Curve> curves)
         {
             List<Polyline> polylines = new List<Polyline>();
@@ -23,6 +41,7 @@ namespace Raccoon.Components
             }
             return polylines;
         }
+
         public static void WriteLine(this string s) => Rhino.RhinoApp.WriteLine(s);
 
         public static void Write(this string s) => Rhino.RhinoApp.Write(s);
@@ -78,13 +97,13 @@ namespace Raccoon.Components
         /// <param name="da"></param>
         /// <param name="position"></param>
         /// <returns></returns>
-        static public T Fetch<T>(this IGH_DataAccess da, int position)
+        public static T Fetch<T>(this IGH_DataAccess da, int position)
         {
-
             T temp = default(T);
             da.GetData<T>(position, ref temp);
             return temp;
         }
+
         /// <summary>
         /// Fetch data with name
         /// </summary>
@@ -92,7 +111,7 @@ namespace Raccoon.Components
         /// <param name="da"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        static public T Fetch<T>(this IGH_DataAccess da, string name)
+        public static T Fetch<T>(this IGH_DataAccess da, string name)
         {
             T temp = default(T);
             da.GetData<T>(name, ref temp);
@@ -106,7 +125,7 @@ namespace Raccoon.Components
         /// <param name="da"></param>
         /// <param name="position"></param>
         /// <returns></returns>
-        static public List<T> FetchList<T>(this IGH_DataAccess da, int position)
+        public static List<T> FetchList<T>(this IGH_DataAccess da, int position)
         {
             List<T> temp = new List<T>();
             da.GetDataList<T>(position, temp);
@@ -120,12 +139,13 @@ namespace Raccoon.Components
         /// <param name="da"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        static public List<T> FetchList<T>(this IGH_DataAccess da, string name)
+        public static List<T> FetchList<T>(this IGH_DataAccess da, string name)
         {
             List<T> temp = new List<T>();
             da.GetDataList<T>(name, temp);
             return temp;
         }
+
         /// <summary>
         /// Fetch structure with position
         /// </summary>
@@ -133,7 +153,7 @@ namespace Raccoon.Components
         /// <param name="da"></param>
         /// <param name="position"></param>
         /// <returns></returns>
-        static public GH_Structure<T> FetchTree<T>(this IGH_DataAccess da, int position) where T : IGH_Goo
+        public static GH_Structure<T> FetchTree<T>(this IGH_DataAccess da, int position) where T : IGH_Goo
         {
             GH_Structure<T> temp;
             da.GetDataTree<T>(position, out temp);
@@ -147,13 +167,11 @@ namespace Raccoon.Components
         /// <param name="da"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        static public GH_Structure<T> FetchTree<T>(this IGH_DataAccess da, string name) where T : IGH_Goo
+        public static GH_Structure<T> FetchTree<T>(this IGH_DataAccess da, string name) where T : IGH_Goo
         {
             GH_Structure<T> temp;
             da.GetDataTree<T>(name, out temp);
             return temp;
         }
-
-
     }
 }

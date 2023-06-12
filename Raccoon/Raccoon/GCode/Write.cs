@@ -1,4 +1,23 @@
-﻿using System;
+﻿///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// DEVELOPER:
+// Petras Vestartas, petasvestartas@gmail.com
+// Funding: EPFL
+//
+// HISTORY:
+// 1) The first CNC Maka code was written in IronPython by Benjamin Hahn. Thesis: Upscaling of Friction Welding of Wood for Structural Applications 2014
+// 2) The second version was turned in a C# plugin by Christropher Robeller. Thesis: Integral Mechanical Attachment for Timber Folded Plate Structures 2015
+// 3) The third version was written during Robotic and CNC software development by Petras Vestartas. Thesis: Design-to-Fabrication Workflow for Raw-Sawn-Timber using Joinery Solver, 2021
+//
+// RESTRICTIONS:
+// The code cannot be used for commercial reasons
+// If you would like to use or change the code for research or educational reasons,
+// please contact the developer first
+//
+// 3RD PARTY LIBRARIES:
+// Rhino3D
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +27,6 @@ namespace Raccoon.GCode
 {
     public class Write
     {
-
         /// <summary>
         /// Postprocessing function
         /// 1. Takes care of formatting
@@ -22,7 +40,6 @@ namespace Raccoon.GCode
         /// <param name="strinfo"></param>
         public static void WriteAndCheck(ref List<string> arrnc, ref PreviewObject preview, string filename = "P1234567", string strinfo = "5X_3dCrvs", string tool = null)
         {
-
             //string filepath = @"C:\Maka\" + filename + "_" + strinfo + TimeStamp();
 
             int N = 20;
@@ -52,8 +69,6 @@ namespace Raccoon.GCode
             GCode.GCodeToGeometry.DrawToolpath(arrnc, ref preview);
         }
 
-
-
         public static List<string> WriteAndCheck2(List<string> arrstr)
         {
             List<string> str_out = new List<string>();
@@ -77,6 +92,5 @@ namespace Raccoon.GCode
             var lt = DateTime.Now.ToLocalTime();
             return "_" + lt.Year.ToString() + "-" + lt.Month.ToString() + "-" + lt.Day.ToString() + "_" + lt.Hour.ToString() + "-" + lt.Minute.ToString() + "-" + lt.Second.ToString();
         }
-
     }
 }

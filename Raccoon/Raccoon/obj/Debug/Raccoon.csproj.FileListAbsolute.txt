@@ -13,3 +13,12 @@ C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\obj\Debug\Raccoon.d
 C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\obj\Debug\Raccoon.pdb
 C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.AssemblyReference.cache
 C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.CopyComplete
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.AssemblyReference.cache
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.Properties.Resources.resources
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.GenerateResource.cache
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.CoreCompileInputs.cache
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.dll
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.pdb
+C:\IBOIS57\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon.dll
+C:\IBOIS57\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon.pdb
+C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.CopyComplete

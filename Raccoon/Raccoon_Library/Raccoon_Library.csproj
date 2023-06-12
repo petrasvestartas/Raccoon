@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\..\..\..\..\..\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -32,11 +32,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Grasshopper">
-      <HintPath>..\..\..\..\..\..\Users\petra\OneDrive\Rhino6Old\Grasshopper.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Users\petra\OneDrive\Rhino6Old\Grasshopper.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RhinoCommon">
-      <HintPath>..\..\..\..\..\..\Users\petra\OneDrive\Rhino6Old\RhinoCommon.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Users\petra\OneDrive\Rhino6Old\RhinoCommon.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
