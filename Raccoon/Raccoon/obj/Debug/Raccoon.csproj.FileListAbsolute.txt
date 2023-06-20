@@ -22,3 +22,12 @@ C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\R
 C:\IBOIS57\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon.dll
 C:\IBOIS57\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon.pdb
 C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.CopyComplete
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.AssemblyReference.cache
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.Properties.Resources.resources
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.GenerateResource.cache
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.CoreCompileInputs.cache
+C:\Users\petras\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon.dll
+C:\Users\petras\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon.pdb
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.csproj.CopyComplete
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.dll
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon\obj\Debug\Raccoon.pdb

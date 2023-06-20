@@ -12,3 +12,9 @@ C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon_Library\obj
 C:\IBOIS57\_Code\Software\Raccoon_Litter_Box\Raccoon\Raccoon\Raccoon_Library\obj\Debug\Raccoon_Library.pdb
 C:\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon_Library.dll
 C:\Users\petra\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon_Library.pdb
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon_Library\obj\Debug\Raccoon_Library.csproj.AssemblyReference.cache
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon_Library\obj\Debug\Raccoon_Library.csproj.CoreCompileInputs.cache
+C:\Users\petras\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon_Library.dll
+C:\Users\petras\AppData\Roaming\Grasshopper\Libraries\Raccoon\Raccoon_Library.pdb
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon_Library\obj\Debug\Raccoon_Library.dll
+C:\legion_pro_7_16IRX8H\software\csharp\Raccoon\Raccoon\Raccoon_Library\obj\Debug\Raccoon_Library.pdb
