@@ -94,7 +94,9 @@ namespace Raccoon.GCode
                     }
                     else
                     {
-                        if (AB.Item1 > AB_last.Item1 + angles || AB.Item1 < AB_last.Item1 - angles)
+                       
+                        //Rhino.RhinoApp.WriteLine(AB.Item1.ToString() + " " +  (AB_last.Item1 + angles).ToString() + " " + (AB_last.Item1 - angles).ToString());
+                        if (AB.Item1 > AB_last.Item1 + angles || AB.Item1 < AB_last.Item1 - angles || AB.Item2 > AB_last.Item2 + angles || AB.Item2 < AB_last.Item2 - angles)
                         {
                             ncc.Add("(**********************_turn_*************************)");
 
